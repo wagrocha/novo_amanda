@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+}
+
+header img#nefertiti {
+    margin-top: 5px;
+    width: 200px;
+}
+
+div.carrosel img {
+    padding: 15px;
+    height: 350px;
+}
+/* ################################## */
+
+.sobre {
+    text-align: center;
+}
+.sobre img {
+    width: 230px;
+}
+.sobre h3{
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+/* REDES SOCIAIS */
+.sociais {
+    padding-bottom: 15px;
+    position: fixed; /*Mantem os icones fixos*/
+    bottom: 0; /*seliciona a distancia de baixo pra cima*/
+    right: 0; /*Seleciona distancia da direita para a esquerda*/
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sociais .wpp {
+    margin-left: 8px;
+    width: 30px;
+}
+
+.sociais .instagram {
+    margin-left: 3px;
+    width: 38px;
+}
