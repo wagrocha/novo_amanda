@@ -1,30 +1,79 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+.fonte-1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    position: relative; /*necessario para o z-index*/
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffeaf2 url('img/fundo-teste.jpg');
+    background-repeat: repeat; 
+    background-position: center center;
+    opacity: 0.2; /* Ajuste a opacidade */
+    z-index: -1; /* Certifica-se de que a imagem esteja atrás do conteúdo do corpo */
+  }
 header {
     display: flex;
     justify-content: center;
+    filter: contrast(250%); /*Ajusta o contraste da imagem*/
 
 }
+
+
 
 header img#nefertiti {
     margin-top: 5px;
     width: 320px;
+    
 }
 
 div.carrosel img {
     padding: 15px;
     height: 450px;
 }
-/* ################################## */
+
+
+/*   SOBRE
+################################## */
+
+
 
 .sobre {
     text-align: center;
 }
+
+.sobre p {
+    padding: 25px;
+    /* color: #464243; */
+    color: black;
+}
 .sobre img {
     width: 330px;
+}
+.sobre h2 {
+    font-size: 2em;
+    margin-top: 35px;
+    /* color: #302d2e; */
 }
 .sobre h3{
     font-size: 0.8em;
@@ -45,10 +94,13 @@ div.carrosel img {
 
 .sociais .wpp {
     margin-left: 8px;
-    width: 30px;
+    width: 42px;
+    
 }
 
 .sociais .instagram {
     margin-left: 3px;
-    width: 38px;
+    width: 51px;
+    
 }
+
