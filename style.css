@@ -11,12 +11,12 @@ header {
 
 header img#nefertiti {
     margin-top: 5px;
-    width: 200px;
+    width: 320px;
 }
 
 div.carrosel img {
     padding: 15px;
-    height: 350px;
+    height: 450px;
 }
 /* ################################## */
 
@@ -24,11 +24,12 @@ div.carrosel img {
     text-align: center;
 }
 .sobre img {
-    width: 230px;
+    width: 330px;
 }
 .sobre h3{
-    font-size: 0.5em;
+    font-size: 0.8em;
     font-style: italic;
+    margin-left: 15px;
 }
 
 /* REDES SOCIAIS */
